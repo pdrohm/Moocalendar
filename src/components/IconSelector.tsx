@@ -17,7 +17,7 @@ const ICON_CATEGORIES = {
   premios: ['🏆', '🎖️', '🥇', '⭐', '🌟', '🎁', '🎉', '💎', '👑', '🏅']
 };
 
-const AVAILABLE_ICONS = Object.values(ICON_CATEGORIES).flat();
+
 
 export const IconSelector: React.FC<IconSelectorProps> = ({
   currentIcon,
